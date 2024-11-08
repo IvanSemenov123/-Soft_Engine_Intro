@@ -30,7 +30,7 @@ public class Point
 
     public Point Clone()
     {
-        return new Point(x, y, z);
+        return new Point(this);
     }
 
     public override string ToString()
